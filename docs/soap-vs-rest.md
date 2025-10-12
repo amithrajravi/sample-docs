@@ -1,5 +1,3 @@
-## soap-vs-rest.md
-
 # Dilemma in Choosing SOAP vs REST
 
 In today's advanced web development world, choosing the **right web services** for your software becomes vital. Read this document to understand the fundamentals of web services, its types, and which ones to choose based on its pros and cons.
