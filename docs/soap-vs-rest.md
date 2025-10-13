@@ -20,7 +20,6 @@ The exchange of data happens using different formats like **XML, JSON, HTML, Pla
 
 When you search for a specific item using your Amazon mobile application, the retrieval of the item information is done using a web service.
 
-
 ## Types
 
 Web services are classified into two types:
