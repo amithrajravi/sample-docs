@@ -1,6 +1,6 @@
 # Sample Documentation Project
 
-Welcome to our Amith's personal sample documentation repository!
+Welcome to Amith's personal sample documentation repository!
 
 ## 📖 Available Documentation
 
