@@ -90,54 +90,22 @@ drwxr-xr-x 1 amithraj amithraj 4096 madcap-flare/
 ```
 
 ### ☁️ **Cloud & DevOps**
-```bash
-# Check the tools I use (versions shown)
-$ aws --version        # Amazon Web Services CLI
-$ kubectl version -o yaml | head -n 3   # Kubernetes client
-$ docker --version     # Docker
-
-# Simple example: install a chart with Helm
-$ helm install artifactory jfrog/artifactory \
-  --namespace jfrog --create-namespace
-# → Deploys the app to Kubernetes in the 'jfrog' namespace
-
-# Verify that things are running
-$ kubectl get pods -n jfrog
-# → Pods should show as "Running"
-```
+- Work with AWS for deployments and infrastructure basics (EC2, IAM)
+- Use Docker and Kubernetes for containerized applications
+- Write clear guides for installing and configuring apps with Helm
+- Focus on simple, reliable steps to deploy and verify services
+- Collaborate with DevOps teams to align docs with real workflows
 
 ### 🔧 **Development & Testing**
-```python
-# Tiny Python example: turn an API spec into simple docs
-import yaml
-
-def list_endpoints(openapi_path):
-    with open(openapi_path, "r") as f:
-        spec = yaml.safe_load(f)
-    for path in spec.get("paths", {}):
-        print(f"- Document endpoint: {path}")
-
-list_endpoints("api-spec.yaml")
-# → Output: a friendly list you can turn into docs
-```
-
-```bash
-# Quick API test example (conceptual)
-$ curl -s https://api.example.com/health | jq
-{
-  "status": "ok"
-}
-# → I validate responses like this before writing the guide
-
-# Using Postman CLI (when available)
-$ postman-cli run collection.json --environment production
-# → Ensures examples in docs actually work
-```
+- Comfortable with Python, Java, and JavaScript for examples and scripts
+- Use Postman and curl to test APIs before documenting
+- Keep examples realistic and easy to follow for developers
+- Validate steps end-to-end so readers can reproduce results confidently
 
 ## 📚 Personal Sample Documentation Projects
 
 ### 🔗 **Web Services Architecture**
-**[SOAP vs REST: Complete Developer Guide](docs/soap-vs-rest.html)**
+**[SOAP vs REST: Overview](docs/soap-vs-rest.html)**
 
 A comprehensive comparison guide that helps developers choose the right web service architecture for their projects. This documentation covers:
 
