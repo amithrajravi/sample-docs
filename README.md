@@ -166,7 +166,7 @@ I'm always excited to discuss new opportunities, technical challenges, and innov
 ### 📞 **Contact Information**
 - **📧 Email**: [raj07tw@gmail.com](mailto:raj07tw@gmail.com)
 - **📱 Phone**: +91-9361061776
-- **💼 LinkedIn**: [Connect with me on LinkedIn](https://linkedin.com/in/amithrajravi)
+- **💼 LinkedIn**: [Connect with me on LinkedIn](https://www.linkedin.com/in/amith-raj-ravi-9bb80083/)
 - **📍 Location**: Bengaluru, Karnataka, India
 
 ### 💬 **What I Can Help With**
