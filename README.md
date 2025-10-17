@@ -4,8 +4,8 @@
 <a id="docs"></a>
 ## 📚 Docs
 
-- APIMAN Implementation Guide: [View as webpage](docs/api-management-apiman.html)
-- SOAP vs REST: [View as webpage](docs/soap-vs-rest.html)
+- APIMAN Implementation Guide: [View as webpage](/sample-docs/docs/api-management-apiman.html)
+- SOAP vs REST: [View as webpage](/sample-docs/docs/soap-vs-rest.html)
 
 ## 🚀 About Me
 

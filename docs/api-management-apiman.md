@@ -1,3 +1,10 @@
+---
+title: APIMAN Implementation Guide
+parent: Developer Guides
+grand_parent: Docs
+nav_order: 1
+---
+
 # APIMAN - API MANAGEMENT
 
 ## 1. About this tutorial

@@ -1,6 +1,14 @@
-theme: jekyll-theme-cayman
+remote_theme: just-the-docs/just-the-docs
 title: Amithraj Ravi — Portfolio
 description: Senior Technical Writer | Developer Docs | Cloud & DevOps
 markdown: kramdown
+logo: 
+color_scheme: light
+search_enabled: true
+aux_links:
+  View on GitHub: https://github.com/amithrajravi/sample-docs
+url: https://amithrajravi.github.io/sample-docs
+baseurl: /sample-docs
+nav_external_links_new_tab: true
 
 
