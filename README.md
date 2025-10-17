@@ -86,75 +86,47 @@ drwxr-xr-x 1 amithraj amithraj 4096 madcap-flare/
 
 ### ☁️ **Cloud & DevOps**
 ```bash
-# Cloud platforms I work with
-$ aws --version
-aws-cli/2.15.0 Python/3.11.0
+# Check the tools I use (versions shown)
+$ aws --version        # Amazon Web Services CLI
+$ kubectl version -o yaml | head -n 3   # Kubernetes client
+$ docker --version     # Docker
 
-$ kubectl version --client
-Client Version: v1.28.0
+# Simple example: install a chart with Helm
+$ helm install artifactory jfrog/artifactory \
+  --namespace jfrog --create-namespace
+# → Deploys the app to Kubernetes in the 'jfrog' namespace
 
-$ docker --version
-Docker version 24.0.0
-
-# My DevOps workflow
-$ helm list
-NAME            NAMESPACE       REVISION    STATUS      CHART
-artifactory     jfrog          1           deployed    artifactory-7.68.0
-kafka-cluster   kafka          1           deployed    kafka-22.1.0
-
-$ kubectl get pods -n production
-NAME                           READY   STATUS    RESTARTS   AGE
-api-gateway-7d4f8b9c5d-xyz12   1/1     Running   0          2d
-auth-service-6c8e9f2a1b-abc34  1/1     Running   0          2d
+# Verify that things are running
+$ kubectl get pods -n jfrog
+# → Pods should show as "Running"
 ```
 
 ### 🔧 **Development & Testing**
 ```python
-# Python scripts I write for documentation automation
+# Tiny Python example: turn an API spec into simple docs
 import yaml
-import markdown
-from pathlib import Path
 
-def generate_api_docs(api_spec_path):
-    """Generate API documentation from OpenAPI spec"""
-    with open(api_spec_path, 'r') as file:
-        spec = yaml.safe_load(file)
-    
-    # Process each API endpoint
-    for endpoint in spec['paths']:
-        create_endpoint_docs(endpoint, spec['paths'][endpoint])
-        print(f"✅ Documented: {endpoint}")
+def list_endpoints(openapi_path):
+    with open(openapi_path, "r") as f:
+        spec = yaml.safe_load(f)
+    for path in spec.get("paths", {}):
+        print(f"- Document endpoint: {path}")
 
-# Example usage
-generate_api_docs('api-spec.yaml')
-```
-
-```java
-// Java code for SDK documentation
-public class DocumentationGenerator {
-    public void createSDKReference(String packageName) {
-        DocumentationBuilder builder = new DocumentationBuilder();
-        builder.addPackage(packageName);
-        builder.generateMarkdown();
-        System.out.println("📚 SDK documentation generated!");
-    }
-}
+list_endpoints("api-spec.yaml")
+# → Output: a friendly list you can turn into docs
 ```
 
 ```bash
-# API testing with Postman
-$ postman-cli run collection.json --environment production
-✅ All API tests passed
-📊 Response time: 245ms average
-🔍 Coverage: 95% endpoints tested
+# Quick API test example (conceptual)
+$ curl -s https://api.example.com/health | jq
+{
+  "status": "ok"
+}
+# → I validate responses like this before writing the guide
 
-# AI tools I use for content generation
-$ gemini --help
-Usage: gemini [command] [options]
-Commands:
-  generate    Generate documentation content
-  verify      Verify documentation accuracy
-  translate   Translate content to multiple languages
+# Using Postman CLI (when available)
+$ postman-cli run collection.json --environment production
+# → Ensures examples in docs actually work
 ```
 
 ## 📚 Personal Sample Documentation Projects
