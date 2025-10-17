@@ -1,5 +1,10 @@
 # 👋 Hi, I'm Amithraj Ravi
 
+## 📚 Docs
+
+- APIMAN Implementation Guide: [View as webpage](docs/api-management-apiman.html)
+- SOAP vs REST: [View as webpage](docs/soap-vs-rest.html)
+
 ## 🚀 About Me
 
 I'm a **Senior Technical Writer** with over 12 years of experience, specializing in making complex technology accessible through clear, actionable documentation. My passion lies in transforming intricate technical concepts into user-friendly guides that help developers, DevOps engineers, and IT administrators succeed.
