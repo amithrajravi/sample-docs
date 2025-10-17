@@ -2,7 +2,5 @@ theme: jekyll-theme-cayman
 title: Amithraj Ravi — Portfolio
 description: Senior Technical Writer | Developer Docs | Cloud & DevOps
 markdown: kramdown
-plugins:
-  - jekyll-include-cache
 
 
