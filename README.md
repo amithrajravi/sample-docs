@@ -140,15 +140,6 @@ I'm constantly expanding my knowledge in:
 - 🚀 **GitOps Documentation** - Streamlining deployment and configuration documentation
 - 📱 **Interactive Tutorials** - Creating hands-on learning experiences
 
-## 📊 GitHub Activity
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amithrajravi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amithrajravi&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
-
 ## 🤝 Let's Connect!
 
 I'm always excited to discuss new opportunities, technical challenges, and innovative documentation projects. Whether you're looking for technical writing expertise or want to collaborate on documentation initiatives, I'd love to hear from you!
