@@ -132,7 +132,7 @@ $ postman-cli run collection.json --environment production
 ## 📚 Personal Sample Documentation Projects
 
 ### 🔗 **Web Services Architecture**
-**[SOAP vs REST: Complete Developer Guide](docs/soap-vs-rest.md)**
+**[SOAP vs REST: Complete Developer Guide](docs/soap-vs-rest.html)**
 
 A comprehensive comparison guide that helps developers choose the right web service architecture for their projects. This documentation covers:
 
@@ -142,7 +142,7 @@ A comprehensive comparison guide that helps developers choose the right web serv
 - **Implementation Examples**: Practical code samples and configurations
 
 ### 🛡️ **API Management Solutions**
-**[APIMAN Implementation Guide](docs/api-management-apiman.md)**
+**[APIMAN Implementation Guide](docs/api-management-apiman.html)**
 
 Complete guide for implementing API management solutions, including:
 
