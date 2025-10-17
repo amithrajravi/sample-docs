@@ -12,7 +12,7 @@
 
 ## 🚀 About Me
 
-I'm a **Senior Technical Writer** with over 8 years of experience, specializing in making complex technology accessible through clear, actionable documentation. My passion lies in transforming intricate technical concepts into user-friendly guides that help developers, DevOps engineers, and IT administrators succeed.
+I'm a **Senior Technical Writer** with over 12 years of experience, specializing in making complex technology accessible through clear, actionable documentation. My passion lies in transforming intricate technical concepts into user-friendly guides that help developers, DevOps engineers, and IT administrators succeed.
 
 **What I do best:**
 - 📝 Create comprehensive developer documentation
@@ -33,14 +33,6 @@ At JFrog, I focus on creating documentation for self-hosted installations and de
 - **AI-Powered Documentation**: Leveraging Gemini AI to create custom documentation tools and verification processes
 - **Release Management**: Creating comprehensive release notes for major, minor, and patch releases
 
-```bash
-# Example of what I document - Helm installation
-helm install artifactory jfrog/artifactory \
-  --namespace jfrog \
-  --create-namespace \
-  --values values.yaml
-```
-
 ### 🔧 **Digital.ai** - Senior Technical Writer Grade 2
 **📍 Bengaluru | 🕒 February 2022 - September 2024**
 
@@ -59,6 +51,26 @@ At Honeywell, I developed expertise in cloud platform documentation:
 - **Cloud Platform Guides**: Created comprehensive user guides for Movilizer Cloud components
 - **UI Documentation**: Developed reference materials and instruction pages
 - **Agile Collaboration**: Participated in scrum meetings and daily stand-ups with engineering teams
+
+### 🎵 **Harman Connected Services** - Technical Writer
+**📍 Bengaluru | 🕒 April 2015 - December 2016**
+
+During my time at Harman, I built foundational skills in technical documentation:
+
+- **DITA Documentation**: Created and updated DITA files for various technical guides
+- **Project Management**: Used JIRA for documentation story tracking and project management
+- **Visual Content**: Edited images and graphics using professional tools like SnagIT
+- **Team Collaboration**: Actively participated in weekly project status meetings
+
+### 💼 **Odessa Technologies** - Technical Writer
+**📍 Bengaluru | 🕒 February 2013 - April 2015**
+
+At Odessa Technologies, I began my technical writing journey:
+
+- **Help Documentation**: Created comprehensive online help and reference manuals
+- **Module Documentation**: Developed documentation for various software modules
+- **Stakeholder Collaboration**: Worked closely with Subject Matter Experts (SMEs) for content review
+- **Cross-functional Communication**: Interacted with Developers and Business Analysts to gather requirements
 
 ## 🛠️ Technical Skills & Tools
 
