@@ -1,5 +1,7 @@
+<a id="home"></a>
 # 👋 Hi, I'm Amithraj Ravi
 
+<a id="docs"></a>
 ## 📚 Docs
 
 - APIMAN Implementation Guide: [View as webpage](docs/api-management-apiman.html)
@@ -159,6 +161,8 @@ I'm constantly expanding my knowledge in:
 
 - 🤖 **AI-Powered Documentation** - Exploring AI tools for content generation and verification
 
+<a id="contact"></a>
+<a id="lets-connect"></a>
 ## 🤝 Let's Connect!
 
 I'm always excited to discuss new opportunities, technical challenges, and innovative documentation projects. Whether you're looking for technical writing expertise or want to collaborate on documentation initiatives, I'd love to hear from you!
