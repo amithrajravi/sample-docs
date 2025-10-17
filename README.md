@@ -1,15 +1,5 @@
 # 👋 Hi, I'm Amithraj Ravi
 
-<div align="center">
-  
-![Profile Views](https://komarev.com/ghpvc/?username=amithrajravi&color=blueviolet&style=flat-square&label=Profile+Views)
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/amithrajravi)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raj07tw@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://github.com/amithrajravi)
-
-</div>
-
 ## 🚀 About Me
 
 I'm a **Senior Technical Writer** with over 12 years of experience, specializing in making complex technology accessible through clear, actionable documentation. My passion lies in transforming intricate technical concepts into user-friendly guides that help developers, DevOps engineers, and IT administrators succeed.
@@ -75,24 +65,99 @@ At Odessa Technologies, I began my technical writing journey:
 ## 🛠️ Technical Skills & Tools
 
 ### 📝 **Documentation Technologies**
-- **Markup Languages**: Markdown, DITA, YAML, XML, HTML, CSS
-- **Authoring Tools**: VS Code, Paligo, Confluence, Oxygen XML, MadCap Flare, Robohelp
-- **Version Control**: Git, GitHub, GitOps workflows
-- **Publishing**: Docs-as-code, automated publishing pipelines
+```bash
+# My documentation toolkit
+$ which markdown dita yaml xml html css
+/usr/bin/markdown    # Markdown mastery
+/usr/bin/dita        # DITA XML expertise  
+/usr/bin/yaml        # YAML configuration
+/usr/bin/xml         # XML authoring
+/usr/bin/html        # HTML/CSS styling
+
+# Authoring tools I use daily
+$ ls -la ~/tools/
+drwxr-xr-x 1 amithraj amithraj 4096 cursor AI/
+drwxr-xr-x 1 amithraj amithraj 4096 vs-code/
+drwxr-xr-x 1 amithraj amithraj 4096 paligo/
+drwxr-xr-x 1 amithraj amithraj 4096 confluence/
+drwxr-xr-x 1 amithraj amithraj 4096 oxygen-xml/
+drwxr-xr-x 1 amithraj amithraj 4096 madcap-flare/
+```
 
 ### ☁️ **Cloud & DevOps**
-- **Cloud Platforms**: AWS (EC2, IAM, CI/CD)
-- **Containerization**: Docker, Kubernetes
-- **Orchestration**: Helm charts, release orchestration
-- **DevOps Practices**: CI/CD, Agile methodologies
+```bash
+# Cloud platforms I work with
+$ aws --version
+aws-cli/2.15.0 Python/3.11.0
+
+$ kubectl version --client
+Client Version: v1.28.0
+
+$ docker --version
+Docker version 24.0.0
+
+# My DevOps workflow
+$ helm list
+NAME            NAMESPACE       REVISION    STATUS      CHART
+artifactory     jfrog          1           deployed    artifactory-7.68.0
+kafka-cluster   kafka          1           deployed    kafka-22.1.0
+
+$ kubectl get pods -n production
+NAME                           READY   STATUS    RESTARTS   AGE
+api-gateway-7d4f8b9c5d-xyz12   1/1     Running   0          2d
+auth-service-6c8e9f2a1b-abc34  1/1     Running   0          2d
+```
 
 ### 🔧 **Development & Testing**
-- **Programming**: Python, Java, JavaScript
-- **API Testing**: Postman, REST API documentation
-- **Databases**: Various database technologies
-- **AI Tools**: Gemini, ChatGPT for content generation
+```python
+# Python scripts I write for documentation automation
+import yaml
+import markdown
+from pathlib import Path
 
-## 📚 Featured Documentation Projects
+def generate_api_docs(api_spec_path):
+    """Generate API documentation from OpenAPI spec"""
+    with open(api_spec_path, 'r') as file:
+        spec = yaml.safe_load(file)
+    
+    # Process each API endpoint
+    for endpoint in spec['paths']:
+        create_endpoint_docs(endpoint, spec['paths'][endpoint])
+        print(f"✅ Documented: {endpoint}")
+
+# Example usage
+generate_api_docs('api-spec.yaml')
+```
+
+```java
+// Java code for SDK documentation
+public class DocumentationGenerator {
+    public void createSDKReference(String packageName) {
+        DocumentationBuilder builder = new DocumentationBuilder();
+        builder.addPackage(packageName);
+        builder.generateMarkdown();
+        System.out.println("📚 SDK documentation generated!");
+    }
+}
+```
+
+```bash
+# API testing with Postman
+$ postman-cli run collection.json --environment production
+✅ All API tests passed
+📊 Response time: 245ms average
+🔍 Coverage: 95% endpoints tested
+
+# AI tools I use for content generation
+$ gemini --help
+Usage: gemini [command] [options]
+Commands:
+  generate    Generate documentation content
+  verify      Verify documentation accuracy
+  translate   Translate content to multiple languages
+```
+
+## 📚 Personal Sample Documentation Projects
 
 ### 🔗 **Web Services Architecture**
 **[SOAP vs REST: Complete Developer Guide](docs/soap-vs-rest.md)**
@@ -147,19 +212,7 @@ I believe great documentation should be:
 
 I'm constantly expanding my knowledge in:
 
-- 🔍 **Microservices Architecture** - Documenting distributed systems patterns
 - 🤖 **AI-Powered Documentation** - Exploring AI tools for content generation and verification
-- 🚀 **GitOps Documentation** - Streamlining deployment and configuration documentation
-- 📱 **Interactive Tutorials** - Creating hands-on learning experiences
-
-## 📊 GitHub Activity
-
-<div align="center">
-  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=amithrajravi&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=amithrajravi&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
 
 ## 🤝 Let's Connect!
 
@@ -177,13 +230,3 @@ I'm always excited to discuss new opportunities, technical challenges, and innov
 - DevOps and Cloud platform documentation
 - Documentation workflow optimization
 - Content review and improvement
-
----
-
-<div align="center">
-  
-**⭐ Star this repository if you found the documentation helpful!**
-
-*Last updated: December 2024*
-
-</div>
