@@ -100,7 +100,7 @@ drwxr-xr-x 1 amithraj amithraj 4096 madcap-flare/
 - Collaborate with DevOps teams to align docs with real workflows
 
 ### 🔧 **Development & Testing**
-- Comfortable with Python, Java, and JavaScript for examples and scripts
+- Comfortable with Python,and Java for examples and scripts
 - Use Postman and curl to test APIs before documenting
 - Keep examples realistic and easy to follow for developers
 - Validate steps end-to-end so readers can reproduce results confidently
