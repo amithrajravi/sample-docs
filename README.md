@@ -93,6 +93,7 @@ drwxr-xr-x 1 amithraj amithraj 4096 madcap-flare/
 
 ### ☁️ **Cloud & DevOps**
 - Work with AWS for deployments and infrastructure basics (EC2, IAM)
+- Good understanding about distributed system and Apache Kafka
 - Use Docker and Kubernetes for containerized applications
 - Write clear guides for installing and configuring apps with Helm
 - Focus on simple, reliable steps to deploy and verify services
